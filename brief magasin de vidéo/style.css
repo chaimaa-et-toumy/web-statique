@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header nav ol li {
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header nav{
+   margin-left: 190px;
+   
+}
+nav ol{
+    display: flex;
+}
+nav ol li a{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+}
+nav ol li a:hover{
+    text-decoration: underline;
+}
+#logo img{
+    position: absolute;
+    width: 150px;
+    height: 70px;
+}
+.list ol {
+    display: flex;
+}
+.list ol li a{
+    text-decoration: none;
+    color: black;
+}
+.list a:hover{
+    text-decoration: underline;
+}
+.list ol li {
+    margin-top: 50px;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 9px;
+
+}
+.list ol span{
+    margin-top: 52px;
+    font-weight: bold;
+    margin-left: 10px;
+
+}
+.list ol li a a:hover{
+    text-decoration: underline;
+}
+
+.text h1,p{
+    margin-left: 6px;
+}
+.text h1{
+    font-size: 39px;
+    margin-top: 12px;
+}
+.text p{
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 100;
+}
+section{
+    display: flex;
+}
+article{
+    border: 1px solid black;
+    margin-left: 10px;
+}
+article h1{
+    margin-left: 6px;
+    margin-bottom: 10px;
+}
+article span{
+    color: rgb(177, 171, 171);
+    margin-left: 6px;
+    font-size: 15px;
+}
+article  img{
+    width: 250px;
+    height: 230px;
+    margin: 10px;   
+}
+article p{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: ;
+}
