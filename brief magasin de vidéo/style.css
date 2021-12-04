@@ -45,27 +45,24 @@ nav ol li a:hover{
 .list ol li {
     margin-top: 50px;
     list-style-type: none;
-    font-size: 18px;
-    margin-left: 9px;
-
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.list ol span{
-    font-weight: bold;
-    margin-left: 10px;
-    margin-bottom: 50px;
 
+
+.list ol h4{
+    margin-left: 8px;
 }
 .list ol li a a:hover{
     text-decoration: underline;
 }
-
+.text h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .text h2,p{
     margin-left: 6px;
 }
-.text h1{
-    font-size: 39px;
-    margin-top: 12px;
-}
+
 .text p{
     margin-top: 10px;
     font-size: 17px;
@@ -98,6 +95,7 @@ section{
 }
 .article p{
 font-size:16px;
+margin-bottom: 2px;
 }
 .article p span{
     color: rgb(25, 26, 25);
@@ -111,5 +109,18 @@ font-size:16px;
 }
 /*responsive*/
 @media screen and (max-width:400px) {
+    .article  img{
+        width: 200px;
+        height: 200px;
+        margin: 10px; 
+    }
+    section{
+        display: block;
     
+    }
+    .article{
+        border: 2px solid black;
+     
+        margin-left: 1px;
+    }
 }
