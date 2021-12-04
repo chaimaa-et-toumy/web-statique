@@ -73,10 +73,13 @@ nav ol li a:hover{
 }
 section{
     display: flex;
+  
+   
 }
 .article{
-    border: 2px solid black;
-    margin-left: 18px;
+    border: 1px solid black;
+    margin-left: 6px;
+    margin-right: 10px;
 }
 .article h2{
     margin-left: 6px;
@@ -91,7 +94,7 @@ section{
 .article  img{
     width: 250px;
     height: 230px;
-    margin: 10px;   
+    margin: 10px; 
 }
 .article p{
 font-size:16px;
@@ -105,4 +108,8 @@ font-size:16px;
     color:#08a84b;
     font-size: 16px;
     margin-bottom: 8px;
+}
+/*responsive*/
+@media screen and (max-width:400px) {
+    
 }
