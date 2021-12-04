@@ -50,16 +50,16 @@ nav ol li a:hover{
 
 }
 .list ol span{
-    margin-top: 52px;
     font-weight: bold;
     margin-left: 10px;
+    margin-bottom: 50px;
 
 }
 .list ol li a a:hover{
     text-decoration: underline;
 }
 
-.text h1,p{
+.text h2,p{
     margin-left: 6px;
 }
 .text h1{
@@ -74,34 +74,35 @@ nav ol li a:hover{
 section{
     display: flex;
 }
-article{
-    border: 1px solid black;
+.article{
+    border: 2px solid black;
     margin-left: 18px;
 }
-article h1{
+.article h2{
     margin-left: 6px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
-article span{
+.article span{
     color: rgb(177, 171, 171);
     margin-left: 6px;
     font-size: 15px;
 }
-article  img{
+.article  img{
     width: 250px;
     height: 230px;
     margin: 10px;   
 }
-article p{
+.article p{
 font-size:16px;
 }
-article p span{
+.article p span{
     color: rgb(25, 26, 25);
     font-weight: bold;
     text-decoration: underline;
 }
-article .green{
-    color:#2ecc71;
+.article .green{
+    color:#08a84b;
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
