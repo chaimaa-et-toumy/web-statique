@@ -37,7 +37,7 @@ nav ol li a:hover{
 }
 .list ol li a{
     text-decoration: none;
-    color: black;
+    color: rgb(19, 18, 18);
 }
 .list a:hover{
     text-decoration: underline;
@@ -68,10 +68,8 @@ nav ol li a:hover{
     font-size: 17px;
     font-weight: 100;
 }
-section{
+.section{
     display: flex;
-  
-   
 }
 .article{
     border: 1px solid black;
@@ -105,22 +103,58 @@ margin-bottom: 2px;
 .article .green{
     color:#08a84b;
     font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 2px;
 }
-/*responsive*/
-@media screen and (max-width:400px) {
-    .article  img{
-        width: 200px;
-        height: 200px;
-        margin: 10px; 
-    }
-    section{
-        display: block;
-    
+@media screen and (max-width: 640px) {
+    .section {
+      display:block;
+      text-align: center;
+      margin: auto;
+      width:auto;
     }
     .article{
-        border: 2px solid black;
-     
-        margin-left: 1px;
+        margin-left: 0.5px;
+        margin-right: 1px;
+        width: auto;
+        margin-bottom: 15px;
+        
     }
+    .article img{
+        width:100%;
+         margin:  0px; 
+        
+    }
+    header nav ol li {
+     
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    header nav{
+       margin-left: 140px;
+    }
+    nav ol{
+        display: block;
+    }
+    
+  }
+  @media screen and (min-width: 200px) and (max-width: 640px) {
+    .section {
+      display:block;
+    }
+    
+    .list ol li {
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    header nav ol li {
+     
+        font-size: 10px;
+        padding-left: 1px;
+    }
+    
+  }
+
+@media screen and (max-width:768){
+
+
 }
