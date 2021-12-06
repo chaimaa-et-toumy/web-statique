@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header #logo{
+    text-align: center;
+    
+ }
+ header nav ol{
+     display: flex;
+     justify-content: center;  
+     flex-wrap: wrap;
+   
+ }
+
+ nav ol li {
+     list-style: none;
+     border: 1px solid black;
+     padding:8px;
+     box-shadow:1px 5px black;  
+  
+ }
+ nav ol li a{
+     color: black;
+     text-decoration: none;
+}
+nav ol li a:hover{
+    color: black;
+    text-decoration: underline;
+}
+section .list ol{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.list ol li {
+    list-style: none;
+}
+.list ol li a{
+    color: black;
+    text-decoration: none;   
+}
+.list ol li a:hover{
+    color: #3498db;
+    text-decoration: underline;   
+}
+.text p{
+    margin-top: 5px; 
+}
+.text, p{
+    margin-left: 6px;
+}
+.section{
+  
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.article{
+    border: 1px solid rgb(0, 0, 0);
+    margin-bottom: 15px;
+}
+.article img{
+    width: 100%;
+}
+.article h2{
+    margin-bottom: 4px;
+}
+.article span{
+    color: grey;
+    margin-left: 2px;
+}
+.article p{
+    font-weight: bold;
+}
+.article p span{
+    font-weight: bold;
+    text-decoration: underline;
+    color:#3498db;
+}
+.red{
+  color: #e74c3c;  
+  margin-bottom: 4px;
+}
