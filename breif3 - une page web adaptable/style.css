@@ -83,49 +83,41 @@ section .list ol{
   margin-bottom: 4px;
 }
 /* desktop */
-/*@media screen and (max-width:1280px){
+@media screen and (min-width:1280px){
 
-    header #logo{
-    float: left;
-    
- }
- 
-   header nav ol{
-    justify-content: center;   
-    
-}
-nav ol li {
-    margin-top: 20px;
-    padding:8px;
-    width: 190px;
-    text-align: center;
-}
-nav ol li a {
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-section .list ol{
-    display: flex;
-    margin-top: 26px;
-    margin-left: 6px;
-}
-.section {
-    display: flex;
-}
-.article{
-margin: 5px; 
+    #logo img{
+        width: 150px;
+        height: 70px;
+        float: left;
+    }
+    header nav {
+        margin-top: 20px;
+    }
+    header nav ol li a {
+        font-size: 20px;
+        padding: 50px;
 
-
+    }
+    .list ol li {
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .section{
+        display: flex;
+    }
+    .article{
+        border: 1px solid black;
+        margin-left: 6px;
+        margin-right: 10px;
+    }
+    .article  img{
+        width: 250px;
+        height: 230px;
+        margin: 10px; 
+    }
 
 }
-
-.article img {
-    width: 250px;
-    height: 230px;
-    margin: 5px 5px 5px 0px;
-}
-
-}/*
 /**********************ipad**************/
 @media screen and (max-width:820px) {
 
@@ -209,10 +201,8 @@ margin: 5px;
  
 }
 
-
-
 /****** iphone 12 mini **********/
-@media screen and (min-width:360px) {
+@media screen and (min-width:360px) and (max-width:880px) {
 
     header nav ol{
        margin-left: 15px;
@@ -235,3 +225,15 @@ margin: 5px;
     }
     
 }
+/*******      ****
+@media screen and (min-width:) {
+    nav ol li a {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+    .list{
+        margin-top: 30px;
+    }
+    
+}*/
+
