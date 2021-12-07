@@ -4,9 +4,7 @@
 }
 header #logo{
     text-align: center;
-
-    
- }
+}
  header nav ol{
      display: flex;
      justify-content: center;  
@@ -82,7 +80,7 @@ section .list ol{
   color: #e74c3c;  
   margin-bottom: 4px;
 }
-/* desktop */
+/***************** desktop ****************/
 @media screen and (min-width:1280px){
 
     #logo img{
@@ -225,15 +223,60 @@ section .list ol{
     }
     
 }
-/*******      ****
-@media screen and (min-width:) {
-    nav ol li a {
-        font-size: 25px;
-        margin-top: 10px;
+/***************/
+@media screen and (min-width:800px) {
+    .section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    .list{
-        margin-top: 30px;
+    .article{
+        border: 1px solid black;
+        margin-left: 6px;
+        margin-right: 10px;
     }
-    
-}*/
+    .article  img{
+        width: 330px;
+        height: 230px;
+        margin: 10px; 
+    }
+   
+}
 
+/*******microsoft*******/
+@media screen and (min-width:1114px){
+
+    #logo img{
+        width: 150px;
+        height: 70px;
+        float: left;
+    }
+    header nav {
+        margin-top: 20px;
+    }
+    header nav ol li a {
+        font-size: 20px;
+        padding: 50px;
+
+    }
+    .list ol li {
+        margin-top: 20px;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .section{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .article{
+        border: 1px solid black;
+        margin-left: 6px;
+        margin-right: 10px;
+    }
+    .article  img{
+        width: 230px;
+        height: 230px;
+        margin: 10px; 
+    }
+
+}
