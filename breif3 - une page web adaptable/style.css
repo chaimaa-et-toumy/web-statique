@@ -4,12 +4,16 @@
 }
 header #logo{
     text-align: center;
+  
 }
  header nav ol{
      display: flex;
      justify-content: center;  
      flex-wrap: wrap;
    
+ }
+ .text h1{
+     font-size: 25px;
  }
 
  nav ol li {
@@ -27,7 +31,7 @@ nav ol li a:hover{
     color: black;
     text-decoration: underline;
 }
-section .list ol{
+main .list ol{
     display: flex;
     margin-top: 15px;
     margin-left: 10px;
@@ -49,7 +53,7 @@ section .list ol{
 .text, p{
     margin-left: 6px;
 }
-.section{
+section{
   
     margin: 10px;
     flex-wrap: wrap;
@@ -65,8 +69,8 @@ section .list ol{
     margin-bottom: 4px;
 }
 .article span{
-    color: grey;
-    margin-left: 2px;
+    color: rgb(83, 81, 81);
+    margin-left: 5px;
 }
 .article p{
     font-weight: bold;
@@ -74,10 +78,10 @@ section .list ol{
 .article p span{
     font-weight: bold;
     text-decoration: underline;
-    color:#3498db;
+    color:#386f94;
 }
 .red{
-  color: #e74c3c;  
+  color: #b43e3e;  
   margin-bottom: 4px;
 }
 /***************** desktop ****************/
@@ -123,7 +127,7 @@ section .list ol{
         flex-wrap: nowrap;
        margin-right: 15px;
     }
-    .section{
+    section{
         flex-wrap: wrap;
         display: block;
         margin: 20px;
@@ -144,7 +148,7 @@ section .list ol{
         flex-wrap: nowrap;
        margin-right: 15px;
     }
-    .section{
+    section{
         flex-wrap: wrap;
         display: block;
         margin: 20px;
@@ -171,7 +175,7 @@ section .list ol{
         justify-content: center;
 
     }
-    .section{
+    section{
         flex-wrap: wrap;
         display: block;
         margin: 20px;
@@ -188,7 +192,7 @@ section .list ol{
         height:90px ;
         
      }
-     section .list ol{
+     main .list ol{
         font-size: 15px;
         flex-wrap: wrap;
         margin-left: 3px;
@@ -225,7 +229,7 @@ section .list ol{
 }
 /***************/
 @media screen and (min-width:800px) {
-    .section{
+    section{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -264,7 +268,7 @@ section .list ol{
         font-size: 14px;
         font-family: Arial, Helvetica, sans-serif;
     }
-    .section{
+    section{
         display: flex;
         flex-wrap: nowrap;
     }
