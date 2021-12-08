@@ -284,3 +284,13 @@ section{
     }
 
 }
+@media screen and (max-width:320px) {
+    nav ol{
+        margin-top: 10px;
+        margin-left: 6px;  
+      }
+     nav ol li a {
+        font-size: 11px;
+    }
+    
+}
