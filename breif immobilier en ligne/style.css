@@ -112,15 +112,7 @@ footer{
         margin-left: 45px;
     }
     input[type=submit]{
-        border-radius: 15px;
-        padding: 20px;
-        color: white;
-        font-weight: bold;
-        width: 220px;
-        height: 50px;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: #F1D56B;
-    
+     width: 220px;
     }
     footer{
         margin-top: 20px;
