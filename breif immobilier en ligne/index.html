@@ -30,18 +30,18 @@
             <br>
             <h2>Trouver un maison Accessible a louer</h2>
             <span class="span">Rechercher : </span>
-            <input type="text" placeholder="Rayon de recherche"> <br> <br>
+            <input type="text" placeholder="Rayon de recherche" required> <br> <br>
             <label class="prix">Prix :</label>
             <br>
             <div class="prixe">
-                <input type="number" placeholder="Min prix">
-                <input type="number" placeholder="Max prix">
+                <input min="100" type="number" placeholder="Min prix" required>
+                <input min="100" type="number" placeholder="Max prix" required>
             </div>
             <br>
             <label>Chambre : </label>
             <br>
             <div class="chambre" style="clear:both;">
-                <input type="number" placeholder="Entrez les nombres des chambres">
+                <input type="number" placeholder="Entrez les nombres des chambres" required>
             </div>
             <label class="type">Type de propriete :</label>
             <br>
@@ -56,7 +56,7 @@
             </div>
             <br> <br>
             <div class="check">
-                <input type="checkbox" value="vendu"> <span>inclure les propriete vendu</span> <br>
+                <input type="checkbox" value="vendu" required> <span>inclure les propriete vendu</span> <br>
             </div>
 
             <input type="submit" value="Rechercher">
