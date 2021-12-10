@@ -34,14 +34,14 @@ input[type=text]{
     border-radius: 8px;
     padding: 12px;
     width: 270px;
-    border-color: #DE834D;
+    border-color: #cebe8f;
 }
 .prixe input[type=number]{
     border-radius: 8px;
     padding: 12px;
     width: 118px;
     margin: 3px;
-    border-color: #DE834D;
+    border-color: #cebe8f;
     justify-content: space-around;
     
 }
@@ -50,7 +50,7 @@ input[type=number]{
     border-radius: 8px;
     padding: 12px;
     width: 270px;
-    border-color: #DE834D;
+    border-color: #cebe8f;
 }
 .prixe{
     display: flex;
@@ -82,7 +82,7 @@ select{
     border-radius: 8px;
     padding: 12px;
     width: 298px;
-    border-color: #DE834D;
+    border-color: #cebe8f;
 }
 input[type=checkbox] , span{
     align-items: center;
@@ -111,6 +111,7 @@ input[type=submit]{
     width: 290px;
     font-family: Georgia, 'Times New Roman', Times, serif;
      background-color: black; 
+    
 
 }
 footer{
@@ -118,62 +119,52 @@ footer{
     margin-bottom: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
+/************* responsive *************/   
+@media screen and (min-width:768px){
 
-
-@media screen and (min-width:1114px) {
-    *{
-        margin: 0;
-        padding: 0;
-    }
     body{
         background-image: url('images/background.jpg');
         background-repeat: no-repeat;
         background-size: cover;
-        height: auto;
+        background-attachment: fixed;
+    }
+    nav{
+        display: flex;
     }
     header{
         display: flex;
         background-color: #373737;
         height: 49px;
+        justify-content: center;
+       
     }
+    
     header nav ol li {
         list-style-type: none;
         font-weight: bold;
         font-size: 17px;
-        padding-left: 25px;
         margin-top: 15px;
         font-family: Arial, Helvetica, sans-serif;
     
     }
     .logo{
-        justify-content: start;
         margin: 0px;
         width: 120px;
+        position: absolute;
+        left: 0;
     }
     .logo img{
         width: 80px;
         height: 39px;
         padding: 2px;
-        
         border-radius: 0px;
     }
-    nav {
+    nav ol{
         display: flex;
     }
-    header nav{
-        justify-content: center;
-        text-align: center;
-        margin-left: 260px;
-        
-        
-     }
-     nav ol{
-         display: flex;
-         
-     }
-     nav ol li a{
+    nav ol li a{
          color: white;
-         padding: 10px;
+         padding: 15px;
          text-decoration: none;     
      }
      nav ol li a:hover{
@@ -199,7 +190,7 @@ footer{
          justify-content: center;
          margin: auto;
          height: auto;
-         margin-top: 35px;
+         margin-top: 50px;
          border-radius: 10px;
      }
      label , .span {
@@ -244,8 +235,5 @@ footer{
     margin-bottom: 7px;
 }
 }
-@media screen  and (min-width:2480px){
-    form{
-        margin-top: 90px;
-     }   
-}
+
+
